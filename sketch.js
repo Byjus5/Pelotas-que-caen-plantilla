@@ -18,7 +18,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
-    //created plane and block bodies
+    //plano creado y cuerpos de bloques
     var plane_options={
       isStatic: true
     }
@@ -30,7 +30,7 @@ function setup(){
     block2=Bodies.rectangle(400,400,150,20,plane_options);
     World.add(world,block2);
 
-    //created multiple of particle bodies 
+    //partículas múltiples de cuerpos creadas 
     var particle_options = {
       restitution:0.4,
       friction:0.02
